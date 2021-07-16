@@ -1,0 +1,18 @@
+// EDUCATION PURPOSES ONLY
+// 09-22-2019
+// Coded by: Kyogin 
+
+function login(token) {
+setInterval(() => {
+document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`
+}, 50);
+setTimeout(() => {
+location.reload();
+}, 2500);
+}
+
+// Second part
+
+login("")
+
+//Inside the parenthisues and qotation marks above go to token (i cant type)
